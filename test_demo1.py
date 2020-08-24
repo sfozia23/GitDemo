@@ -8,6 +8,7 @@ import pytest
 @pytest.mark.smoke
 def test_firstProgram(setup):
     print("Hello")
+    print("Doing some changes")
 
 
 @pytest.mark.xfail
